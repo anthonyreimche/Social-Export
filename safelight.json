@@ -1,0 +1,18 @@
+{
+  "id": "social-export",
+  "name": "Social Export",
+  "version": "1.0.0",
+  "description": "Share photos sized and shaped for each social network. Post straight to Bluesky, Mastodon and Pixelfed with alt text, or save files ready for Instagram, Facebook, X and Threads and open the site. Copy one to paste anywhere.",
+  "author": "Anthony Reimche",
+  "main": "dist/index.js",
+  "license": "GPL-3.0-or-later",
+  "categories": ["Export"],
+  "keywords": ["social", "share", "instagram", "facebook", "x", "twitter", "threads", "bluesky", "mastodon", "pixelfed", "post", "alt text"],
+  "repository": "anthonyreimche/Social-Export",
+  "minAppVersion": "3.2.7",
+  "permissions": {
+    "network": ["https://bsky.social", "https://*.host.bsky.network"],
+    "userOrigins": true,
+    "reason": "Signs in to the Bluesky, Mastodon or Pixelfed account you choose and posts the photos you share there. A Mastodon or Pixelfed server, or a Bluesky server you run yourself, is asked about before Safelight reaches it."
+  }
+}
